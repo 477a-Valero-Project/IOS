@@ -13,9 +13,10 @@
 @end
 
 @implementation SecondViewController
-            
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    _patientData = [[NSMutableArray alloc] initWithObjects: @"Grant", @"Martin", @"Tyler", @"Trent", nil];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
